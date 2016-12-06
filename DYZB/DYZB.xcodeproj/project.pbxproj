@@ -17,6 +17,10 @@
 		8D542A721DB50ACF001C7056 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D542A711DB50ACF001C7056 /* ProfileViewController.swift */; };
 		8D542A741DB50ADA001C7056 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D542A731DB50ADA001C7056 /* FollowViewController.swift */; };
 		8D542A781DB5138D001C7056 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D542A771DB5138D001C7056 /* UIBarButtonItem-Extension.swift */; };
+		8D5894551DC8C5F50086C759 /* tuijianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5894541DC8C5F50086C759 /* tuijianViewController.swift */; };
+		8D5894571DC8C5FC0086C759 /* yuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5894561DC8C5FC0086C759 /* yuleViewController.swift */; };
+		8D5894591DC8C6090086C759 /* youxiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5894581DC8C6090086C759 /* youxiViewController.swift */; };
+		8D58945B1DC8C6110086C759 /* quwanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D58945A1DC8C6110086C759 /* quwanViewController.swift */; };
 		8D69EB5F1DB65BFA001D6C1F /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69EB5E1DB65BFA001D6C1F /* PageTitleView.swift */; };
 		8D69EB621DB65E52001D6C1F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69EB611DB65E52001D6C1F /* Common.swift */; };
 		8DA170231DBE3DC100C4E1D4 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA170221DBE3DC100C4E1D4 /* PageContentView.swift */; };
@@ -39,6 +43,10 @@
 		8D542A711DB50ACF001C7056 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8D542A731DB50ADA001C7056 /* FollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
 		8D542A771DB5138D001C7056 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		8D5894541DC8C5F50086C759 /* tuijianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tuijianViewController.swift; sourceTree = "<group>"; };
+		8D5894561DC8C5FC0086C759 /* yuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yuleViewController.swift; sourceTree = "<group>"; };
+		8D5894581DC8C6090086C759 /* youxiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = youxiViewController.swift; sourceTree = "<group>"; };
+		8D58945A1DC8C6110086C759 /* quwanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quwanViewController.swift; sourceTree = "<group>"; };
 		8D69EB5E1DB65BFA001D6C1F /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		8D69EB611DB65E52001D6C1F /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		8DA170221DBE3DC100C4E1D4 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
@@ -133,6 +141,10 @@
 				8D542A6F1DB50AC3001C7056 /* LiveViewController.swift */,
 				8D542A711DB50ACF001C7056 /* ProfileViewController.swift */,
 				8D542A731DB50ADA001C7056 /* FollowViewController.swift */,
+				8D5894541DC8C5F50086C759 /* tuijianViewController.swift */,
+				8D5894561DC8C5FC0086C759 /* yuleViewController.swift */,
+				8D5894581DC8C6090086C759 /* youxiViewController.swift */,
+				8D58945A1DC8C6110086C759 /* quwanViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -173,12 +185,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = D.Huhu;
 				TargetAttributes = {
 					8DA5EB081DB4FC800082C9A5 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = KA99U3BMZ3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -224,17 +235,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D542A721DB50ACF001C7056 /* ProfileViewController.swift in Sources */,
+				8D5894571DC8C5FC0086C759 /* yuleViewController.swift in Sources */,
 				8D542A621DB5030C001C7056 /* MainViewController.swift in Sources */,
 				8DA170231DBE3DC100C4E1D4 /* PageContentView.swift in Sources */,
 				8D542A781DB5138D001C7056 /* UIBarButtonItem-Extension.swift in Sources */,
 				8DA5EB0F1DB4FC800082C9A5 /* ViewController.swift in Sources */,
+				8D5894551DC8C5F50086C759 /* tuijianViewController.swift in Sources */,
 				8DA5EB0D1DB4FC800082C9A5 /* AppDelegate.swift in Sources */,
 				8D542A641DB50354001C7056 /* HomeViewController.swift in Sources */,
 				8D69EB5F1DB65BFA001D6C1F /* PageTitleView.swift in Sources */,
+				8D5894591DC8C6090086C759 /* youxiViewController.swift in Sources */,
 				8D542A701DB50AC3001C7056 /* LiveViewController.swift in Sources */,
 				8D69EB621DB65E52001D6C1F /* Common.swift in Sources */,
 				8D542A741DB50ADA001C7056 /* FollowViewController.swift in Sources */,
 				8DA170291DBE60A600C4E1D4 /* UIColorExtension.swift in Sources */,
+				8D58945B1DC8C6110086C759 /* quwanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +309,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -343,6 +359,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -371,7 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KA99U3BMZ3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DYZB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.xz.DYZB;
@@ -384,7 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KA99U3BMZ3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DYZB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.xz.DYZB;
